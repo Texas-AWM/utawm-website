@@ -7,9 +7,7 @@ html {
     font-size: xx-large;
 }
 
-
-/* Main page */
-#main-welcome {
+.blinking-text {
     /* animation, animation-duration, animation-timing-function, animation-fill-mode */
     animation: typing 2s steps(30, end) forwards,
                blinking-cursor 1s infinite;
@@ -18,11 +16,13 @@ html {
     overflow: hidden;
     white-space: nowrap;
 }
+
 @keyframes typing {
     /* based on https://blog.hubspot.com/website/typing-animation-css */
     from { width: 0 }
     to { width: 100% }
 }
+
 @keyframes blinking-cursor {
     0% {border-right-color: transparent}
     50% {border-right-color: black}
@@ -31,9 +31,9 @@ html {
 
 @media screen and (max-width:900px) {
     html {
-        font-size: large;
+        font-size: medium;
     }
-    #main-welcome {
+    .blinking-text {
         animation: none;
         border-right: none;
         max-width: 100%;
@@ -42,6 +42,7 @@ html {
     }
 }
 
+/* Main page */
 .special-green {
     color: #749c5f;
     /* color for dark mode: #48782e; */
@@ -53,13 +54,19 @@ html {
 
 
 /* Resources page */
+.resource-description{
+    text-indent: 2em;
+    font-size: smaller;
+}
 
 
 /* Socials page */
 #socials-container {
-    
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 #socials-image {
-    width: 30%;
+    flex-grow: 0;
 }
