@@ -55,16 +55,16 @@ html {
 
 /* Resources page */
 .resource-description{
-    text-indent: 2em;
     font-size: smaller;
+    text-indent: 2em;
 }
 
 
 /* Socials page */
 #socials-container {
+    align-items: center;
     display: inline-flex;
     flex-wrap: wrap;
-    align-items: center;
 }
 
 #socials-image {
