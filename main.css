@@ -29,19 +29,6 @@ html {
     100% {border-right-color: transparent}
 }
 
-@media screen and (max-width:900px) {
-    html {
-        font-size: medium;
-    }
-    .blinking-text {
-        animation: none;
-        border-right: none;
-        max-width: 100%;
-        overflow: hidden;
-        white-space: normal;
-    }
-}
-
 
 /* Main page */
 .special-green {
@@ -65,7 +52,6 @@ html {
     column-gap: 0.875rem;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     font-size: smaller;
     justify-content: flex-start;
     margin-bottom: 0.5rem;
@@ -105,4 +91,22 @@ html {
     flex-grow: 0;
     height: auto;
     max-width: 100%;
+}
+
+
+/* For small screens */
+@media screen and (max-width:900px) {
+    html {
+        font-size: medium;
+    }
+    .blinking-text {
+        animation: none;
+        border-right: none;
+        max-width: 100%;
+        overflow: hidden;
+        white-space: normal;
+    }
+    .officer {
+        flex-wrap: wrap;
+    }
 }
