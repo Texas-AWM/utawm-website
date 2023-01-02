@@ -55,28 +55,25 @@ html {
 #all-officers-container {
     align-items:  center;
     display: flex;
-    flex-direction:  column;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content:  flex-start;
 }
 
 .officer {
     align-items: center;
+    column-gap: 0.875rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     font-size: smaller;
     justify-content: flex-start;
+    margin-bottom: 0.5rem;
+    overflow: auto;
 }
 
 .officer-img {
-    height: auto;
     max-width: 100%;
-    margin-bottom: 1em;
-}
-
-.officer-textbox {
-    margin: 2px;
 }
 
 .officer-name {
