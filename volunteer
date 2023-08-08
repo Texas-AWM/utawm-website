@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>UT AWM Volunteer</title>
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+	</head>
+
+	<body>
+		<h1 class="blinking-text">VOLUNTEER</h1>
+
+    <!--NEED TO CHANGE-->
+		<p>aileen * amira * anouka * mitali * tara</p>
+		
+        <div id="all-officers-container"></div>
+            <div class="officer">
+                <img class="officer-img" src="photos/mitali_pizza.jpg" alt="aileen">
+                <div class="officer-textbox">
+                    <h2 class="officer-name">Aileen Li</h2>
+                    <h4 class="officer-position">Web & Internals</h4>
+                    <p>
+                        Hello everybody! I'm a Math major at UT pursuing a minor in Computer Science. While I am focused on data science and statistics,  I also enjoy many creative endeavors, such as drawing and painting, as much as solving problems. I don't believe in staying within a single paradigm and AWM reflects that, welcoming any and all people to become our new friends in this home we've created at UT. My favorite color is pink. I'm obsessed with desert rain frogs. And my favorite shirts are big and comfortable ones.
+                    </p>
+                    <p>Aileen (originally cakeiscakeiscake) on Discord</p>
+                </div>
+            </div>
+
+            <div class="officer">
+                <img class="officer-img" src="photos/mitali_pizza.jpg" alt="amira">
+                <div class="officer-textbox">
+                    <h2 class="officer-name">Amira Sefidi</h2>
+                    <h4 class="officer-position">Outreach/Socials</h4>
+                    <p>
+                        Hi! I am a math major also pursuing a UTEACH certificate here at UT. I play pickleball, volleyball and I love cats! For me, AWM has been a warm, welcoming place with friendly faces, yummy snacks, and fun games.
+                    </p>
+                    <p>amira on Discord</p>
+                </div>
+            </div>
+
+            <div class="officer">
+                <img class="officer-img" src="photos/mitali_pizza.jpg" alt="anouka">
+                <div class="officer-textbox">
+                    <h2 class="officer-name">Anouka Saha</h2>
+                    <h4 class="officer-position">Vice-President</h4>
+                    <p>
+                        Hello! My name is Anouka Saha and I am currently a sophomore mathematics major. I have been a part of this organization since fall of my freshman year, and am so excited to see where AWM goes this semester and beyond. Outside of AWM I am a peer mentor for the EvoDevOmics FRI research stream, and enjoy reading books, playing the piano, and singing.
+                    </p>
+                    <p>anouka on Discord</p>
+                </div>
+            </div>
+
+            <div class="officer">
+                <img class="officer-img" src="photos/mitali_pizza.jpg" alt="mitali">
+                <div class="officer-textbox">
+                    <h2 class="officer-name">Mitali Elhence</h2>
+                    <h4 class="officer-position">Treasurer</h4>
+                    <p>
+                        Hi! My name is Mitali and I am a third-year math major doing actuarial sciences and a minor in business. This is actually my third major at UT (and my favorite). I have been in AWM for the past two years and I am so grateful for all of the amazing friendships I have made through the org! In my free time, I enjoy playing card games and watching trashy reality tv. Also, most importantly I am team Edward.
+                    </p>
+                    <p>Mitali Elhence on Discord</p>
+                </div>
+            </div>
+
+            <div class="officer">
+                <img class="officer-img" src="photos/mitali_pizza.jpg" alt="mitali">
+                <div class="officer-textbox">
+                    <h2 class="officer-name">Tara Roshan</h2>
+                    <h4 class="officer-position">President</h4>   
+                    <p>
+                        Howdy! I entered UT as a Math major who thought programming was cool but was scared of Computer Science majors. I still love math, but I love CS a *tad* bit more, hence my internal transfer to become a CS major. Regardless, AWM is my home and I've had so much joy playing Avalon on Wednesdays to the point where my friend group is almost all AWMies. My favorite color is green, favorite animal is the chicken (I have 7), and favorite shoes are black boots. :)
+                    </p>
+                    <p>Tara (originally tarantula) on Discord</p>
+                </div>
+            </div>
+        </div>
+                      
+        <!--NEED TO CHANGE-->
+	</body>
+
+    <footer><p><a href="index.html">← Back to home</a></p></footer>
+</html>
