@@ -129,11 +129,11 @@ html {
 
 /* Awards & Funding page */
 #all-award-container {
-    align-items:  center;
+    align-items: left;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content:  flex-start;
+    justify-content: flex-start;
 }
 
 .award {
