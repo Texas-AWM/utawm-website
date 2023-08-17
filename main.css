@@ -94,7 +94,72 @@ html {
 }
 
 /* Volunteer page */
+#all-volunteer-container {
+    align-items:  center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:  flex-start;
+}
+
+.volunteer {
+    align-items: center;
+    column-gap: 0.875rem;
+    display: flex;
+    flex-direction: row;
+    font-size: smaller;
+    justify-content: flex-start;
+    margin-bottom: 0.5rem;
+    overflow: auto;
+}
+
+.volunteer-img {
+    max-width: 100%;
+}
+
+.volunteer-name {
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+}
+
+.volunteer-position {
+    margin-top: 0em;
+    margin-bottom: 0.25em;
+}
+
 /* Awards & Funding page */
+#all-award-container {
+    align-items:  center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:  flex-start;
+}
+
+.award {
+    align-items: center;
+    column-gap: 0.875rem;
+    display: flex;
+    flex-direction: row;
+    font-size: smaller;
+    justify-content: flex-start;
+    margin-bottom: 0.5rem;
+    overflow: auto;
+}
+
+.award-img {
+    max-width: 100%;
+}
+
+.award-name {
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+}
+
+.award-position {
+    margin-top: 0em;
+    margin-bottom: 0.25em;
+}
 
 /* For small screens */
 @media screen and (max-width:900px) {
