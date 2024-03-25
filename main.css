@@ -17,6 +17,10 @@ html {
     white-space: nowrap;
 }
 
+.Mission {
+    display: flex;
+}
+
 @keyframes typing {
     /* based on https://blog.hubspot.com/website/typing-animation-css */
     from { width: 0 }
@@ -93,6 +97,23 @@ html {
     max-width: 100%;
 }
 
+#socials-image-box {
+    flex-grow: 0;
+    height: auto;
+    max-width: 100%;
+}
+
+#button {
+    flex-grow: 0;
+    height: auto;
+    max-width: 100%;
+    text-decoration: none;
+}
+
+#socials-list{
+    display: flex;
+    justify-content: space-between;
+}
 /* Volunteer page */
 #all-volunteer-container {
     align-items:  center;
