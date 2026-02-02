@@ -1,4 +1,4 @@
-# UT AMW's website
+# UT AWM's website
 Files for our website on the math server (see profile for link).
 
 ## Why?
