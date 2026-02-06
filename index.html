@@ -1,52 +1,59 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <!-- TODO https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8 -->
 <html>
-	<head>
-		<title>UT Association for Women in Math</title>
-		<link rel="stylesheet" type="text/css" href="main.css"/>
-	</head>
+        <head>
+                <title>UT Association for Women in Math</title>
+                <link rel="stylesheet" type="text/css" href="main.css"/>
+        </head>
 
-	<body onload="getUpdateTime()">
-		<h1 class="blinking-text">Welcome to <span class="special-green">UT AWM</span>!</h1>
-		<div class="Mission">
-			<img class="Logo" src="photos/logo.jpg" alt="Logo" width = 350>
-			<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
-			<p align="Center"><font size = 10><b>Mission Statement</b><br></font> <br>
-			The purpose of the Association for Women in Mathematics - UT Austin Chapter is to encourage women 
-			and girls to study and have active careers in the mathematical sciences. We strive to accomplish 
-			this goal by promoting equal opportunity & treatment of women and girls in the mathematical sciences 
-			and by fostering community & cooperation in these fields.</p>
-			
-		</div>
+        <body onload="getUpdateTime()">
+                <h1 class="blinking-text">Welcome to <span class="special-green">UT AWM</span>!</h1>
+                <div class="Mission">
+                        <img class="Logo" src="photos/logo.jpg" alt="Logo" width = 350>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
-		<h2 align="Center"><a href="officers.html">officers</a> * <a href="resources.html">resources</a> * <a href="socials.html">socials</a> * <a href="volunteering.html">volunteering</a> * <a href="awards.html">awards</a></h2>
+                        <p align="Center"><font size = 10><b>Mission Statement</b><br></font> <br>
+                        The purpose of the Association for Women in Mathematics - UT Austin Chapter is to encourage women
+                        and girls to study and have active careers in the mathematical sciences. We strive to accomplish
+                        this goal by promoting equal opportunity & treatment of women and girls in the mathematical sciences
+                        and by fostering community & cooperation in these fields.</p>
 
-		<p>We meet @ <span class="special-green">PMA 9.166 from 4 - 5pm on Wednesdays</span>. <em>All genders are welcome.</em></p>
-		<!-- <p>Talk with your club members on our <a href="https://discord.gg/Vqkj22gS5d" style="color: black;">Discord server</a>.</p> -->
-		<div id="socials-list">
-			<span>Click 
-			<a href="https://utlists.utexas.edu/sympa/subscribe/utawm?previous_action=edit_list_request#" target="_blank">here</a>
-			 to join our mailing list!</span>
+                </div>
 
-		
-			<font size = 5>Connect with us here: 
-			<a href="https://www.instagram.com/texasawm/" target="_blank" id = "button"><img id="button" src="photos/instagram.jpg" width = 50>&nbsp;</a>
-			<a href="https://discord.gg/gpZPKceVgF" target="_blank" id = "button"><img id="button" src="photos/discord.jpg" width = 50>&nbsp;</a>
-			<a href="https://www.facebook.com/groups/texasawm/?ref=share" target="_blank" id = "button"><img id="button" src="photos/facebook.jpg" width = 50>&nbsp;</a>
-			<a href="mailto:texasawm@gmail.com" target="_blank" id = "button"><img id="button" src="photos/gmail.jpg" width = 50>&nbsp;</a>
-			<a href="https://github.com/Texas-AWM" target="_blank" id = "button"><img id="button" src="photos/github.jpg " width = 50>&nbsp;&nbsp;</a>
-			</font>
-		</div>
+                <h2 align="Center"><a href="officers.html">officers</a> * <a href="resources.html">resources</a> * <a href="socials.html">socials</a> * <a href="volunteering.html">volunteering</a> * <a href="awards.html">awards</a></h2>
 
-	</body>
+                <p>We meet @ <span class="special-green">PMA 12.166 from 4 - 5pm on Wednesdays</span>. <em>All genders are welcome.</em></p>
 
-	<footer>
-		<script>
-			function getUpdateTime() {
-				document.getElementById("update-time").innerHTML = document.lastModified;
-			}
-		</script>
-		<p style="font-size: medium;">Server last updated this page on <span id="update-time"></span>.</p>
-	</footer>
+                <!-- <p>Talk with your club members on our <a href="https://discord.gg/Vqkj22gS5d" style="color: black;">Discord server</a>.</p> -->
+                <div id="socials-list">
+                        <span>Click
+                        <a href="https://utlists.utexas.edu/sympa/subscribe/utawm?previous_action=edit_list_request#" target="_blank">here</a>
+                         to join our mailing list!</span>
+
+
+                        <font size = 5>Socials and Sponsors:
+
+
+                        <a href="https://www.instagram.com/texasawm/" target="_blank" id = "button"><img id="button" src="photos/instagram.jpg" width = 50>&nbsp;</a>
+          				<a href="https://www.facebook.com/groups/texasawm/?ref=share" target="_blank" id = "button"><img id="button" src="photos/facebook.jpg" width = 50>&nbsp;</a>
+                        <a href="mailto:texasawm@gmail.com" target="_blank" id = "button"><img id="button" src="photos/gmail.jpg" width = 50>&nbsp;</a>
+                        <a href="https://github.com/Texas-AWM" target="_blank" id = "button"><img id="button" src="photos/github.jpg " width = 50>&nbsp;&nbsp;</a>
+                        <a href="https://www.janestreet.com/" target="_blank" id="button"><img id="button" src="photos/janestreet.png" width = 150>&nbsp;</a>
+                        <a href="https://www.hudsonrivertrading.com/" target="_blank" id ="button"><img id = "button" src="photos/hudsonrivertrading.png" width=100>&nbsp;</a>
+
+                        </font>
+                </div>
+
+        </body>
+
+        <footer>
+                <script>
+                        function getUpdateTime() {
+                                document.getElementById("update-time").innerHTML = document.lastModified;
+                        }
+                </script>
+                <p style="font-size: medium;">Server last updated this page on <span id="update-time"></span>.</p>
+        </footer>
 </html>
